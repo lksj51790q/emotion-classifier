@@ -1,7 +1,7 @@
-from .packages import jieba
-from .packages.jieba import posseg
-from .packages.nltk.probability import FreqDist, ConditionalFreqDist
-from .packages.nltk.metrics import BigramAssocMeasures
+import jieba
+from jieba import posseg
+from nltk.probability import FreqDist, ConditionalFreqDist
+from nltk.metrics import BigramAssocMeasures
 from collections import defaultdict
 import pickle, math, operator, os, sys
 
